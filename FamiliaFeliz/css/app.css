@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #586082;
+}
+header h1 {
+    margin-top: 6rem;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+header h1 span {
+    color: #ff0844;
+}
+header h5 {
+    font-weight: 700;
+}
+header h5 span{
+    font-weight: 400;
+}
+header #home {
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+
+#banner {
+    background-color: #ff0844;
+}
+#banner h3 {
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+#details {
+    margin: 4rem 0 0;
+}
+#details h4 {
+    font-weight: 700;
+}
+#details #bg {
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 271px;
+    margin-top: 3rem !important;
+}
+
+#register {
+    background-color: #e2e9f3;
+    padding-top: 4rem;
+}
+#register h3 {
+    font-weight: 700;
+}
+#register h3 span {
+    color: #ff0844;
+}
+#register #bg {
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+}
+::-webkit-input-placeholder {
+    color: #909090 !important;
+    opacity: 1;
+}
+select option:disabled {
+    color: #909090 !important;
+}
+select {
+    color: #909090 !important;
+}
+.btn-main {
+    background-color: #ff0844;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 0.8rem 3.5rem;
+}
+.btn-main:hover {
+    background-color: #e5083e;
+    color: #FFFFFF;
+}
+
+#services h4 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+#services h4 span {
+    color: #ff0844;
+}
+#services h3 {
+    font-weight: 700;
+}
+#services {
+    font-weight: 700;
+}
+#services p{
+    font-size: 1.2rem;
+}
+
+footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1197px;
+    margin-top: 5rem;
+    position: relative;
+}
+footer .custom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    font-weight: 700;
+    
+}
+
+@media (max-width: 768px) { 
+    header h1 {
+        margin-top: 3rem;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    header #home {
+        background-image: url('../images/header_sm.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 228px;
+    }
+    #details #bg {
+        margin-top: 1rem !important;
+    }
+    .margin {
+        margin-top: 3rem;
+    }
+}

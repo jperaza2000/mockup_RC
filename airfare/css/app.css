@@ -1,0 +1,301 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container-extended {
+    width: 80% !important;
+    margin: auto;
+}
+.btn-main {
+    color: #FFFFFF;
+    background-color: #362f29;
+    border-radius: 0;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+.btn-main:hover {
+    color: #fdbf01;
+}
+select {
+    padding: 0.8rem 2rem !important;
+}
+input {
+    padding: 0.8rem 2rem !important;
+}
+input:focus, input:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+header {
+    height: 1385px;
+    background-image: url('../images/header_lg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1 {
+    font-size: 4.25rem;
+    color: #FFFFFF;
+    margin-top: 380px;
+}
+header h1 span {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+header p {
+    color: #3c342c;
+    font-size: 1.2rem;
+    margin-top: 320px;
+}
+
+#feature {
+    height: 1292px;
+    background-image: url('../images/feature_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+}
+#feature h1 {
+    font-size: 5.25rem;
+    color: #fdbf01;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#feature img.dots:first-child {
+    margin-right: -80px;
+}
+#feature img.dots:first-child {
+    margin-left: -80px;
+}
+#feature p {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    margin: 0;
+}
+#feature p span {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+#feature p.top {
+    margin: -80px 0 0;
+}
+#howCanDo {
+    background-color: #eef0f0;
+}
+#howCanDo h1 {
+    font-size: 6.25rem;
+    color: #3c342c;
+    text-transform: uppercase;
+}
+#howCanDo h1:first-child {
+    margin: 5rem 0 0;
+}
+#howCanDo h1 span{
+    margin: -30px 0 0 !important;
+    font-size: 6.85rem;
+    font-weight: 800;
+}
+#howCanDo p {
+    font-size: 1.2rem;
+}
+#howCanDo p:last-child {
+    margin-bottom: 4rem;
+}
+
+#register {
+    background-image: url('../images/register_bg.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-y;
+    min-height: 1000px;
+    padding: 7rem 0 0;
+}
+#register h1 {
+    color: #FFFFFF;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+}
+#register h1 span {
+    font-weight: 800;
+}
+#register h1.bg {
+    background-color: #FFFFFF;
+    color: #fdbf01;
+    font-size: 3.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    padding: 1rem 4rem;
+}
+#register img {
+    margin-top: 8rem;
+}
+#register p {
+    font-weight: 800;
+    color: #362f29;
+}
+
+#testimonials {
+    padding: 7rem 0 1rem;
+}
+#testimonials h1 {
+    font-size: 6.85rem;
+    color: #fdbf01;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#testimonials img.dots:first-child {
+    margin-right: -80px;
+}
+#testimonials img.dots:first-child {
+    margin-left: -80px;
+}
+#testimonials p {
+    color: #3c342c;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #fcb525;
+    color: #FFFFFF;
+    padding: 10px 0 0;
+}
+
+@media (max-width: 2001px) {
+    header h1 {
+        margin-top: 410px;
+    }
+    header p {
+        margin-top: 230px;
+    }
+}
+@media (max-width: 1756px) {
+    header p {
+        margin-top: 140px;
+    }
+}
+@media (max-width: 1460px) {
+    #register {
+        min-height: max-content;
+        padding: 3rem 0 0;
+    }
+    #register h1.bg {
+        background-color: #FFFFFF;
+        color: #fdbf01;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 3rem 0;
+        padding: 1rem 1rem;
+    }
+    header p {
+        margin-top: 60px;
+    }
+
+}
+@media (max-width: 576px) {
+    .container-extended {
+        width: 90% !important;
+        margin: auto;
+    }
+    .btn-main {
+        color: #FFFFFF;
+        background-color: #fcb525;
+        border-radius: 0;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: 1rem;
+        border: 1px solid #ffffff;
+    }
+    .btn-main:active, .btn-main:hover {
+        color: #FFFFFF;
+    }
+    header {
+        height: 253px;
+        background-image: url('../images/header_md.jpg');
+    }
+    header h1 {
+        font-size: 0.8rem;
+        color: #FFFFFF;
+        margin-top: 100px;
+    }
+    header h1 span {
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    header p {
+        display: none;
+    }
+    #feature {
+        height: max-content;
+    }
+    #feature h1 {
+        font-size: 2rem;
+        color: #fdbf01;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    #feature .icon {
+        width: 40%;
+        margin-top: 2rem;
+    }
+    #feature p.top {
+        margin: -40px 0 0;
+    }
+
+    #howCanDo h1 {
+        font-size: 3rem;
+        color: #3c342c;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    #howCanDo h1:first-child {
+        margin: 2rem 0 0;
+    }
+    #howCanDo h1 span{
+        margin-top: -30px;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    #howCanDo p:last-child {
+        margin-bottom: 2rem;
+    }
+
+    #register {
+        min-height: max-content;
+        padding: 3rem 0 0;
+    }
+    #register h1.bg {
+        background-color: #FFFFFF;
+        color: #fdbf01;
+        font-size: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 3rem 0;
+        padding: 1rem 1rem;
+    }
+    #register img {
+        margin-top: 2rem;
+    }
+
+    #testimonials {
+        padding: 3rem 0 1rem;
+    }
+    #testimonials h1 {
+        font-size: 3rem;
+        color: #fdbf01;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    footer {
+        background-color: #fcb525;
+        color: #FFFFFF;
+        padding: 10px 0 0;
+    }
+}

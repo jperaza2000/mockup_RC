@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficios Apoyo</title>
+    <meta property="og:url" content="@HttpContext.Current.Request.Url.AbsoluteUri" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Asistencia financiera y servicios de apoyo" />
+    <meta property="og:description" content="Asistencia financiera y servicios de apoyo a las familias de bajos ingresos" />
+    <meta property="og:image" content="~/images/CI/Disability4/images/pople.png" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/bootstrap_v5.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-8 col-md-8 logo_div">
+                            <img src="/images/logo.png" class="logo">
+                        </div>
+                    </div>
+                    <div class="row texto-header">
+                        <div class="col-12">
+                            <p>El Gobierno federal de Estados Unidos <strong>asigna fondos a sus estados para proporcionar</strong></p>
+                        </div>
+                        <div class="col-12">
+                            <h1 class="text-blue">asistencia financiera</h1>
+                        </div>
+                        <div class="col-12">
+                            <h1>y servicios de apoyo 
+                                a las familias de 
+                                bajos ingresos</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-left">
+                    <a href="#form" class="btn btn-beneficios">Obtenga ayuda con sus gastos básicos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="help_text">
+        <div class="container">
+            <div class="row justify-content-center align-items-center py-5">
+                <div class="col-12 col-md-12 text-center">
+                    <h2 class="text-uppercase">Permítanos <span>ayudarle</span></h2>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <p class="text-white">A encontrar la información adecuada para que usted y su familia tengan acceso a los 
+                        princioales programas de beneficios del Gobiernos</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="form">
+        <div class="container">
+            <div class="row justify-content-center align-items-center pt-5 pb-3">
+                <div class="col-12 text-center">
+                    <img src="/images/icon_form.png">
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-12 col-md-12 text-center">
+                    <h2 class="text-uppercase">Accesso a <strong>Información</strong></h2>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <p>Para tener acceso a información. sobre los programas de asistencia además de los requisitos de elegibilidad para los programas, rellene el formulario.</p>
+                    <div class="divisor"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <select class="form-control" name="SPQuestion_1034" id="SPQuestion_1034">
+                                <option disabled selected value="">SEXO</option>
+                                <option value="Male">Masculino</option>
+                                <option value="Female">Femenino</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <input type="text" name="SPQuestion_1146" id="SPQuestion_1146" class="form-control" placeholder="PRIMER NOMBRE" value="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <input type="text" name="SPQuestion_1147" id="SPQuestion_1147" class="form-control" placeholder="APELLIDOS" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <input type="email" name="SPQuestion_1037" id="SPQuestion_1037" class="form-control" placeholder="EMAIL" value="">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <input type="text" name="SPQuestion_1038" id="SPQuestion_1038" class="form-control" placeholder="NÚMERO DE TELÉFONO" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mb-0">
+                            <p class="birthdate">FECHA DE NACIMIENTO</p>
+                        </div>
+                        <div class="col-3 mb-3">
+                            <input class="form-control birthdate day" min="1" max="31" maxlength="2" type="number" name="day" id="day" placeholder="DIA" data-next-input=".birthdate.year">
+                        </div>
+                        <div class="col-3 mb-3">
+                            <input class="form-control birthdate month" min="1" max="12" maxlength="2" type="number" name="month" id="month" placeholder="MES" data-next-input=".birthdate.day">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input class="form-control birthdate year" type="number" maxlength="4" min="1937" max="1997" name="year" id="year" placeholder="AÑO">
+                        </div>
+                        <input type="hidden" name="SPQuestion_1036" id="SPQuestion_1036">
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-5">                            
+                            <input type="text" name="SPQuestion_1039" id="SPQuestion_1039" class="form-control" placeholder="DIRECCIÓN" value="">
+                        </div>
+                        <div class="col-6 mb-5">
+                            <input type="text" name="SPQuestion_1040" id="SPQuestion_1040" class="form-control" placeholder="CÓDIGO POSTAL" value="">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center mb-5">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-beneficios" name="button" id="btnSubmit">MOSTRAR POSIBILIDADES&nbsp;&nbsp;></button>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12">
+                            <!-- @RenderPage("/Views/TCPA.cshtml") -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-7 col-lg-5 text-center info_text">
+                    <div class="row">
+                        <div class="col-12 text-center icon_info">
+                            <img src="/images/icon_info.png" >
+                        </div>
+                        <div class="col-12">
+                            <h2 class="mb-3">Si es una familia de bajos ingresos con hijos menores, hay ayuda disponible.</h2>
+                            <p class="d-none d-xxl-block">Hay varios programas gubernamentales que pueden ayudarlo a 
+                                satisfacer al menos algunas de sus necesidades básicas. 
+                                Hay asistencia disponible que puede proporcionarle dinero en efectivo, 
+                                alimentos y tratamiento médico a usted y su familia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+                    <img src="/images/icon-1.png" class="icon">
+                    <h2>Asistecia Financiera</h2>
+                    <div class="divisor"></div>
+                    <p>Programa Asistencia Temporal para Familias Necesitadas (TANF). 
+                        Seguridad de Ingreso Suplementario (SSI).</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-2.png" class="icon">
+                    <h2>Comida</h2>
+                    <div class="divisor"></div>
+                    <p>Programa de Asistencia Nutricional 
+                        Suplementaria (SNAP).</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-3.png" class="icon">
+                    <h2>Vivienda</h2>
+                    <div class="divisor"></div>
+                    <p>Viviendas Subsidiadas, Bono de Vivienda y Asistencia 
+                        para Energía para Hogares de Bajos Recursos (LIHEAP).</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-4.png" class="icon">
+                    <h2>Salud</h2>
+                    <div class="divisor"></div>
+                    <p>Programa de Seguro Médico para Niños (CHIP).</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-5.png" class="icon">
+                    <h2>medicaid</h2>
+                    <div class="divisor"></div>
+                    <p>Es un programa conjunto federal y estatal que ayuda con 
+                        los costos médicos a ciertas personas que tienen ingresos 
+                        o recursos limitados y ofrece beneficios que por lo general 
+                        Medicare no cubre.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-6.png" class="icon">
+                    <h2>Medicare</h2>
+                    <div class="divisor"></div>
+                    <p>Medicare es un programa federal de seguro médico para personas 
+                        que tienen 65 años o más, ciertas personas más jóvenes con 
+                        incapacidades y personas con enfermedad renal en etapa terminal.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-7.png" class="icon">
+                    <h2>Tricare</h2>
+                    <div class="divisor"></div>
+                    <p>Es el programa de seguro de salud del Departamento de Defensa 
+                        para las personas en el ejército, así como para algunos de sus 
+                        familiares, sobrevivientes y jubilados.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mb-5">
+                    <img src="/images/icon-8.png" class="icon">
+                    <h2>SSDI</h2>
+                    <div class="divisor"></div>
+                    <p>Un programa de seguro federal 
+                        administrado por la Administración del Seguro Social diseñado 
+                        para proporcionar ayudas a las personas que tienen restricciones 
+                        físicas y no tienen capacidad para trabajar debido a una 
+                        discapacidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4 mt-5">
+                    <img src="/images/icon-footer.png">
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-8 text-center mb-2">
+                    <p>La información proporcionada en este sitio tiene fines educativos. 
+                        Este es un sitio privado, para obtener la calificación de asistencia 
+                        del gobierno, lo alentamos a que visite el sitio web estatal y 
+                        federal (<a href="https://usa.gov/benefits">https://usa.gov/benefits</a>)</p>
+                </div>
+                <div class="col-12 text-center mb-2">
+                    <p>© 2021 All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>

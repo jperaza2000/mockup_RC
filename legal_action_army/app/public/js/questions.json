@@ -1,0 +1,71 @@
+{
+    "paraquat": {
+        "questions": [
+            {
+                "question": "IS THIS FOR YOU OR A LOVED ONE?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["For me", "For a loved one"],
+                "input_name": "input_question-1"
+            },
+            {
+                "is_children": "yes",
+                "question_For_me": "WERE YOU DIAGNOSED WITH PARKINSON’S DISEASE AND USED PARAQUAT WEED KILLER PRIOR TO YOUR DIAGNOSIS?",
+                "question_For_a_loved_one": "WAS YOUR FAMILY MEMBER DIAGNOSED WITH PARKINSON’S DISEASE AND USED PARAQUAT WEED KILLER PRIOR TO YOUR DIAGNOSIS?",
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-2"
+            },
+            {
+                "question": "WHAT YEAR DID EXPOSURE FIRST BEGIN?",
+                "answers_type": "input", 
+                "input_placeholcer": "YEAR",
+                "input_maxlength": "4",
+                "input_name": "input_question-3",
+                "input_validation": ["year"],
+                "btn_text": "NEXT"
+            },
+            {
+                "question": "WHAT WERE YOU DIAGNOSED WITH?",
+                "answers_type": "select", 
+                "answers_value": ["Parkinson’s disease", "Lung scarring", "Kidney failure", "Heart failure", "Esophageal strictures"],
+                "input_placeholcer": "-- SELECT --",
+                "input_name": "input_question-4",
+                "btn_text": "NEXT"
+            },
+            {
+                "question": "ARE YOU WORKING WITH AN ATTORNEY?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-5"
+            }
+        ] 
+    },
+    "3m-earplugs3": {
+        "questions": [
+            {
+                "question": "DID YOU OR A LOVED ONE USE 3M DUAL-ENDED COMBAT ARMS EARPLUGS?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-1"
+            },
+            {
+                "question": "WERE YOU OR A LOVED ONE DIAGNOSED WITH TINNITUS OR HEARING LOSS?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-2"
+            },
+            {
+                "question": "DID YOU OR A LOVED ONE SERVE IN THE U.S. MILITARY BETWEEN 2003 AND 2015?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-3"
+            },
+            {
+                "question": "DO YOU CURRENTLY HAVE A LAWYER REPRESENTING YOUR CLAIM?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"],
+                "input_name": "input_question-4"
+            }
+        ]
+    }
+}

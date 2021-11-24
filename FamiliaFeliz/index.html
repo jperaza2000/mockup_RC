@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Receta para una Familia Feliz</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-8 text-center mb-4">
+						<h1 class="text-uppercase">
+							¿Receta para una <span>familia feliz</span>?
+						</h1>
+					</div>
+					<div class="col-12 text-center">
+						<img src="images/linea.png"  alt="Receta para una Familia Felíz"/>
+					</div>
+					<div class="col-12 col-lg-8 text-center mt-5">
+						<h5>
+							<span>¡Si la tenemos!</span> Es que se queden apenas
+							momentos felices y lindas memorias cuando no estés.
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid mt-5" id="home"></div>
+		</header>
+
+		<section id="banner">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-7 text-center">
+						<h3 class="my-4">
+							¿NO DISPONE DE SEGURO DE DECESOS? <br />¡SE LO
+							PONEMOS ASÍ DE FÁCIL!
+						</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="details">
+			<div class="container">
+				<div class="row">
+					<div class="offset-1 col-10 offset-lg-2 col-lg-4">
+						<div class="row mb-5">
+							<div class="col-3 col-lg-3">
+								<img src="images/icon_1.jpg"  alt="Receta para una Familia Felíz"/>
+							</div>
+							<div class="col-9 col-lg-9">
+								<h4>El más económico del mercado</h4>
+								<p>Desde 2€/mes por persona</p>
+							</div>
+						</div>
+						<div class="row mt-5">
+							<div class="col-3">
+								<img src="images/icon_3.jpg"  alt="Receta para una Familia Felíz"/>
+							</div>
+							<div class="col-9">
+								<h4>Pago Fraccionado</h4>
+								<p>Mensual, trimestral, semestral o anual</p>
+							</div>
+						</div>
+					</div>
+					<div class="offset-1 col-10 col-lg-4">
+						<div class="row margin">
+							<div class="col-3">
+								<img src="images/icon_2.jpg"  alt="Receta para una Familia Felíz"/>
+							</div>
+							<div class="col-9">
+								<h4>Sepelio Completo</h4>
+								<p>
+									Inceración o inhumación; <br />
+									Alquiler sala velatorio; <br />
+									Coche acompañamento; <br />
+									Flores; <br />
+									Recordatorios; <br />
+									Tramitación certificados; <br />
+									Traslado y repatriación; <br />
+									Traslado completo a España o al extranjero;
+									<br />
+									Atención y apoyo a los familiares del
+									asegurado;<br />
+									Asistencia psicológica al duelo; <br />
+									Asistencia al asegurado para otorgar
+									testamento ante notario; <br />
+									Testamento Vital;
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid mt-5" id="bg"></div>
+		</section>
+
+		<section id="register">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-7 text-center">
+						<h3 class="text-uppercase">
+							Calcula tu <span>seguro ya</span>!
+						</h3>
+					</div>
+					<div class="col-12 text-center my-3">
+						<img src="images/linea.png"  alt="Receta para una Familia Felíz"/>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-3">
+					<div class="offset-1 col-10">
+						<div class="row">
+							<div class="col-12 col-lg-4 my-2">
+								<select
+									class="form-control"
+									name="SPQuestion_1034"
+									id="SPQuestion_1034"
+								>
+									<option disabled selected value="">
+										SEXO
+									</option>
+									<option value="Male">Masculino</option>
+									<option value="Female">Femenino</option>
+								</select>
+							</div>
+							<div class="col-12 col-lg-4 my-2">
+								<input
+									type="text"
+									name="SPQuestion_1146"
+									placeholder="NOMBRE"
+									id="SPQuestion_1146"
+									class="form-control"
+									value=""
+								/>
+							</div>
+							<div class="col-12 col-lg-4 my-2">
+								<input
+									type="text"
+									name="SPQuestion_1147"
+									placeholder="APELLIDOS"
+									id="SPQuestion_1147"
+									class="form-control"
+									value=""
+								/>
+							</div>
+							<div class="col-12 text-center mt-3">
+								<p class="birthdate">FECHA DE NACIMIENTO</p>
+							</div>
+							<div class="col-4">
+								<input
+									class="form-control birthdate day"
+									min="1"
+									max="31"
+									maxlength="2"
+									type="number"
+									name="day"
+									id="day"
+									placeholder="DÍA"
+									data-next-input=".birthdate.year"
+								/>
+							</div>
+							<div class="col-4">
+								<input
+									class="form-control birthdate month"
+									min="1"
+									max="12"
+									maxlength="2"
+									type="number"
+									name="month"
+									id="month"
+									placeholder="MES"
+									data-next-input=".birthdate.day"
+								/>
+							</div>
+							<div class="col-4">
+								<input
+									class="form-control birthdate year"
+									type="number"
+									maxlength="4"
+									min="1937"
+									max="1997"
+									name="year"
+									id="year"
+									placeholder="AÑO"
+								/>
+                                <input
+                                    type="hidden"
+                                    name="SPQuestion_1036"
+                                    id="SPQuestion_1036"
+                                />
+							</div>
+                            <div class="col-12 my-4">
+								<input
+									type="text"
+									name="SPQuestion_1039"
+									id="SPQuestion_1039"
+									class="form-control"
+									placeholder="DIRECCIÓN"
+									value=""
+								/>
+							</div>
+                            <div class="col-6">
+								<input
+									type="text"
+									name="SPQuestion_1040"
+									id="SPQuestion_1040"
+									class="form-control"
+									placeholder="CÓDIGO POSTAL"
+									value=""
+								/>
+							</div>
+                            <div class="col-6">
+								<input
+									type="text"
+									name="SPQuestion_1038"
+									id="SPQuestion_1038"
+									class="form-control"
+									placeholder="TELÉFONO"
+									value=""
+								/>
+							</div>
+                            <div class="col-12 my-4">
+								<input
+									type="text"
+									name="SPQuestion_1037"
+									id="SPQuestion_1037"
+									class="form-control"
+									placeholder="EMAIL"
+									value=""
+								/>
+							</div>
+                            <div class="col-12 col-lg-6">
+								<input
+									type="text"
+									name="SPQuestion_XXXX"
+									id="SPQuestion_XXXXX"
+									class="form-control"
+									placeholder="PARA CUÁNTAS PERSONAS?"
+									value=""
+								/>
+							</div>
+						</div>
+                        <div class="row justify-content-center align-items-center my-5">
+							<div class="col-12 text-center">
+								<button
+									type="submit"
+									class="btn btn-main btn-large"
+									name="button"
+									id="btnSubmit"
+								>
+									ENVIAR
+								</button>
+							</div>
+						</div>
+						<div class="row justify-content-center align-items-center">
+							<div class="col-12">
+								<!-- @RenderPage("/Views/TCPA.cshtml") -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="container-fluid mt-5" id="bg"></div>
+		</section>
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h4>Los especialistas de <span class="text-uppercase">PREVENTIVA</span> se ocuparán de <br>todos los trámites y gestiones ante cualquier organismo</h4>
+                    </div>
+                    <div class="col-12 text-center my-3">
+                        <img src="images/linea.png" alt="Receta para una Familia Felíz">
+					</div>
+                    <div class="col-12 text-center my-3">
+                        <h3 class="text-uppercase">¡Servicios!</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-3 col-6 text-center">
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service1.jpg" class="mb-3"  alt="Receta para una Familia Felíz">
+                                <p>Preventiva Asistencia</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service2.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Asistencia Médica</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service3.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Servicios Jurídicos</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service4.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Protección de pagos</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service5.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Testamento Online</p>
+                            </div>
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service6.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Preventica Dental</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12 col-lg-4 text-center">
+                                <img src="images/icon_service7.jpg" class="mb-3" alt="Receta para una Familia Felíz">
+                                <p>Legado Genético</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+		<footer>
+			<div class="custom">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<p class="text-center">© All Right Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

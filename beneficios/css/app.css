@@ -1,0 +1,221 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100;
+}
+#header {
+    background-image: url('../images/header_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+header .logo_div {
+    margin: 85px 0px 80px;
+}
+header p {
+    color: #363c4a;
+    font-weight: 400;
+}
+header h1 {
+    line-height: 3rem;
+    font-size: 3rem;
+    color: #363c4a;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #FFF;
+}
+header h1.text-blue {
+    color: #0082c9;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header .texto-header {
+    margin-bottom: 40px;
+}
+header .btn-beneficios {
+    background-color: #08ca95;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+header .btn-beneficios:hover {
+    background-color: #07a77b;
+    color: #FFFFFF;
+}
+
+#help_text {
+    background: #0082c9;
+}
+#help_text h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+#help_text span {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#form h2 {
+    color: #363c4a;
+    font-weight: 100;
+}
+#form p {
+    color: #363c4a;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+#form p.birthdate {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#form .divisor {
+    width: 44px;
+    height: 3px;
+    background-color: #0082c9;
+    margin: 2rem auto 3rem;
+}
+#form .form-control::placeholder {
+    color: #3b3b3b;
+}
+#form .btn-beneficios {
+    background-color: #08ca95;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+#form .btn-beneficios:hover {
+    background-color: #07a77b;
+    color: #FFFFFF;
+}
+
+#info {
+    margin-top: 3rem;
+    min-height: 700px;
+    height: 700px;
+    background-image: url('../images/img1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#info h2 {
+    color: #FFFFFF;
+}
+#info p {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#info .info_text {
+    margin-top: 6rem;
+}
+
+#info .icon_info {
+    margin-bottom: 2rem;
+}
+
+#services {
+    padding-top: 4rem;
+}
+#services h2 {
+    color: #616161;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+#services p {
+    color: #616161;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+#services .divisor {
+    width: 44px;
+    height: 3px;
+    background-color: #0082c9;
+    margin: 1rem auto 2rem;
+}
+
+#footer {
+    background-color: #0082c9;
+}
+#footer p {
+    color: #FFFFFF;
+    font-size: .8rem;
+    font-weight: 400;   
+}
+#footer a {
+    color: #FFFFFF;
+
+}
+
+@media (max-width: 1200px) {
+    header .logo_div {
+        margin: 50px 0 30px 50px;
+    }
+    #info {
+        min-height: 300px;
+    }
+    #info .info_text {
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 992px) {
+    header .logo_div {
+        margin: 30px 0 20px 10px;
+    }
+    header .logo {
+        width: 80%;
+    }
+    header .texto-header {
+        margin-bottom: 10px;
+    }
+    header h1 {
+        line-height: 2.3rem;
+        font-size: 2.3rem;
+    }
+    #services h2 {
+        font-size: 1rem;
+    }
+    #services p {
+        padding: 0;
+    }
+    #info {
+        margin-top: 2rem;
+        padding: 0 1rem 2rem;
+        min-height: 300px;
+        height: auto;
+        background-color: #0082c9;
+        background-image: none;
+    }
+    #info .info_text {
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 576px) {
+    header h1 {
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+    header .logo_div {
+        margin: 45px 0 40px 50px;
+    }
+    header .logo {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        color: #363c4a;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+    header h1.text-blue {
+        color: #0082c9;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 1.3rem;
+    }
+    header .btn-beneficios {
+        font-size: 1rem;
+    }
+}
