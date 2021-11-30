@@ -1,0 +1,263 @@
+body {
+    background-image: url('../images/bg_lg.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.res {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: tomato;
+    color: white;
+}
+.btn-main {
+    background-color: #51dbde;
+    border: 1px solid #51dbde;
+    color: #FFFFFF;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+}
+.btn-main:hover, .btn-main:active {
+    background-color: #42b2b4;
+    color: #FFFFFF;
+    outline: none !important;
+    box-shadow: none !important;
+}
+input, select {
+    color: #7c8789 !important;
+    border: none !important;
+    border-bottom: 1px solid #7c8789 !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+input:active, input:focus, select:focus, select:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#header {
+    color: #FFFFFF;
+}
+#header h1{
+    font-size: 3rem;
+}
+#header h1 span {
+    font-weight: 800;
+}
+#header p {
+    font-weight: 400;
+    font-size: 1.2rem;   
+}
+
+#register {
+    position: relative;
+    top: 800px;
+    color: #7c8789;
+}
+#register h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#register h1 span {
+    font-weight: 800;
+}
+
+#benefits {
+    position: relative;
+    top: 500px;
+}
+#benefits h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#benefits h1 span {
+    font-weight: 800;
+}
+
+#information {
+    position: relative;
+    top: 600px;
+    color: #7c8789;
+}
+#information h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#information h1 span {
+    font-weight: 800;
+}
+#information p {
+    font-size: 1.2rem;   
+}
+
+.foot {
+    background-color: #012546;
+    padding: 1rem 0;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width: 360px) {
+    body {
+        background-image: url('../images/bg_sm.jpg');
+    }
+
+    #header h1{
+        font-size: 2rem;
+    }
+    #header h1 span {
+        font-weight: 800;
+    }
+    #header p {
+        font-weight: 400;
+        font-size: 1.2rem;   
+    }
+
+    #register {
+        top: 350px;
+    }
+    #register h1 {
+        font-size: 1.6rem;
+    }
+
+    #benefits {
+        top: 560px;
+    }
+
+    #benefits h1 {
+        font-size: 1.6rem;
+    }
+
+    #information {
+        top: 1060px;
+        padding-bottom: 300px;
+    }
+
+    #information h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url('../images/bg_sm.jpg');
+    }
+
+    #header h1{
+        font-size: 2rem;
+    }
+    #header h1 span {
+        font-weight: 800;
+    }
+    #header p {
+        font-weight: 400;
+        font-size: 1.2rem;   
+    }
+
+    #register {
+        top: 550px;
+    }
+    #register h1 {
+        font-size: 1.6rem;
+    }
+
+    #benefits {
+        top: 840px;
+    }
+
+    #benefits h1 {
+        font-size: 1.6rem;
+    }
+
+    #information {
+        top: 1460px;
+        padding-bottom: 300px;
+    }
+
+    #information h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 577px) AND (max-width: 1200px) {
+    #register {
+        top: 450px;
+    }
+    #benefits {
+        top: 400px;
+    }
+    #benefits img{
+        margin:auto 0 auto auto ;
+    }
+    #information {
+        top: 500px;
+    }
+}
+
+@media  (min-width: 1201px) AND (max-width: 1340px) {
+    #register {
+        top: 350px;
+    }
+    #benefits {
+        top: 400px;
+    }
+    #benefits img{
+        margin:auto 0 auto auto ;
+    }
+    #information {
+        top: 500px;
+    }
+}
+
+@media (min-width: 1341px) AND (max-width: 1500px) {
+    #register {
+        top: 450px;
+    }
+    #benefits {
+        top: 300px;
+    }
+    #benefits img{
+        width: 65%;
+        margin:auto 0 auto auto ;
+    }
+    #information {
+        top: 400px;
+    }
+}
+
+@media (min-width: 1501px) AND (max-width: 1800px) {
+    #register {
+        top: 650px;
+    }
+    #benefits {
+        top: 300px;
+    }
+    #benefits img{
+        width: 65%;
+        margin:auto 0 auto auto ;
+    }
+    #information {
+        top: 400px;
+    }
+}
+
+@media (min-width: 1801px) AND (max-width: 1940px) {
+    #register {
+        top: 650px;
+    }
+    #benefits {
+        top: 400px;
+    }
+    #benefits img{
+        width: 65%;
+        margin:auto 0 auto auto ;
+    }
+    #information {
+        top: 400px;
+    }
+}

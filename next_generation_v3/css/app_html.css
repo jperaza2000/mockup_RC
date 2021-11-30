@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden;
+    background-image: url('../images/test.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.res {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+#blue{
+    width: 0;
+    height: 0;
+    background: #012546;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#person {
+    position: absolute;
+    right: 320px;
+}
+#gray{
+    width: 0;
+    height: 0;
+    background: #ecf0f1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#red{
+    width: 0;
+    height: 0;
+    background: #c60b1e;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#white{
+    width: 0;
+    height: 0;
+    background: #FFFFFF;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.rotacion{
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}

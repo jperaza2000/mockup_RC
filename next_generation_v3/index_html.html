@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Generation</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <!-- <div id="blue" class="rotacion"></div>
+    <div id="person">
+        <img src="images/person_lg.png">
+    </div>
+    <div id="gray" class="rotacion"></div>
+    <div id="red" class="rotacion"></div>
+    <div id="white" class="rotacion"></div>
+
+    <div class="res"></div> -->
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        calcularTamanos();
+        
+        $(window).resize(function(event) {
+            calcularTamanos();
+        });
+    });
+
+    function calcularTamanos() {
+        var tamano = parseInt($(window).width());
+        var proportion = parseInt($(window).width()) * 0.9;
+        console.log(proportion);
+
+        $('#blue').css('width', tamano + "px").css('height', tamano + "px");
+        $('#blue').css('top', tamano/-2 + "px").css('left', tamano/-2 + "px");
+
+        $('#gray').css('width', tamano + "px").css('height', tamano + "px");
+        $('#gray').css('top', tamano/-2 + tamano + "px").css('left', tamano/-4 + "px");
+        
+        $('#red').css('width', tamano + "px").css('height', tamano + "px");
+        $('#red').css('top', proportion + "px").css('left', tamano/3 + "px");
+
+        $('#white').css('width', tamano + "px").css('height', tamano + "px");
+        $('#white').css('top', proportion*1.5 + "px").css('left', tamano/-4 + "px");
+    }
+</script>
+</html>
