@@ -1,0 +1,195 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #32444d;
+}
+.btn-main {
+    color: #FFFFFF;
+    background-color: #73c035;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+.btn-main-out {
+    color: #73c035;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    border: 1px solid #73c035;
+}
+.btn-main_white {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+}
+.btn-main_white:hover {
+    color: #bdf88d;
+    border: 1px solid #bdf88d;
+}
+.btn-main-out:hover {
+    color: #5a9b26;
+}
+.btn-main:focus, .btn-main:active, .btn-main-out:focus, .btn-main-out:active, .btn-main_white:focus, .btn-main_white:active {
+    outline: none;
+    box-shadow: none;
+}
+.btn-main:hover {
+    background-color: #5a9b26;
+    color: #FFFFFF;
+}
+.accordion-item {
+    border: none;
+    color: #32444d;
+    border-bottom: 1px solid #c3cfdd;
+}
+.accordion-button:not(.collapsed), .accordion-button {
+    color: #32444d;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-body {
+    color: #32444d;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+header {
+    height: 100px;
+    padding-top: 7px;
+}
+
+#slider {
+    background-image: url('../images/bg_slider.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 0;
+}
+#slider h1 {    
+    font-size: 3rem;
+    color: #32444d;
+    text-transform: uppercase;
+}
+#slider h1 span {
+    color: #74bf35;
+    font-weight: 800;
+}
+
+#info1 {
+    background-color: #32444d;
+    padding: 4rem 0;
+    color: #FFFFFF;
+}
+#info1 h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#info1 h1 span {
+    font-weight: 800;
+}
+#info1 h3 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#accordion {
+    padding: 6rem 0;
+}
+
+#info2 {
+    background-color: #73c035;
+    padding: 4rem 0;
+    color: #FFFFFF;
+}
+#info2 h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#info1 h3 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#feature {
+    margin-top: -80px;
+}
+#feature .feature_first {
+    margin-top: 160px;
+}
+#feature h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#feature h1 span {
+    font-weight: 600;
+}
+#feature h3 {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#buttons {
+    padding: 6rem 0;
+    background-color: #f3f3f3;
+}
+#buttons h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+#buttons h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#buttons .card-header {
+    background-color: #73c035;
+    padding: 2rem 0;
+}
+#buttons .programs_hidden .card-header {
+    background-color: #b8d553;
+    padding: 2rem 0;
+}
+#buttons .card-header h3 {
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+}
+#buttons .programs_hidden {
+    display: none;
+}
+
+#register {
+    padding: 4rem;
+    background-color: #73c035;
+}
+#register h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+#register h1 span {
+    font-weight: 800;
+}
+
+footer {
+    height: 70px;
+    background-color: #32444d;
+    padding-top: 11px;
+}
