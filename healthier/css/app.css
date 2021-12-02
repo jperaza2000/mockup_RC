@@ -193,3 +193,15 @@ footer {
     background-color: #32444d;
     padding-top: 11px;
 }
+
+@media (max-width: 576px) {
+    #info1 img {
+        width: 60%;
+    }
+    h1 {
+        font-size: 2rem !important;
+    }
+    .btn-main, .btn-main-out, .btn-main_white {
+        font-size: 1.2rem;
+    }
+}
