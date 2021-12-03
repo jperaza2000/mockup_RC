@@ -53,11 +53,22 @@ body {
     color: #32444d;
     border-bottom: 1px solid #c3cfdd;
 }
+.accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    font-family: FontAwesome;
+    background-image: none;
+}
+.accordion-button::after {
+    content: "\f067";
+    font-family: FontAwesome;
+    background-image: none;
+}
 .accordion-button:not(.collapsed), .accordion-button {
-    color: #32444d;
     font-weight: 600;
-    font-size: 1.8rem;
-    background-color: #FFFFFF;
+    font-size: 1.2rem;
+    background-color: #73c035;
+    text-transform: uppercase;
+    color: #FFFFFF;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 .accordion-body {
@@ -110,6 +121,15 @@ header {
 
 #accordion {
     padding: 6rem 0;
+    background-color: #f3f3f3;
+}
+#accordion h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+#accordion h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 #info2 {
@@ -147,34 +167,6 @@ header {
     font-weight: 800;
 }
 
-#buttons {
-    padding: 6rem 0;
-    background-color: #f3f3f3;
-}
-#buttons h1 {
-    font-size: 3rem;
-    font-weight: 800;
-}
-#buttons h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-#buttons .card-header {
-    background-color: #73c035;
-    padding: 2rem 0;
-}
-#buttons .programs_hidden .card-header {
-    background-color: #b8d553;
-    padding: 2rem 0;
-}
-#buttons .card-header h3 {
-    color: #FFFFFF !important;
-    text-transform: uppercase;
-}
-#buttons .programs_hidden {
-    display: none;
-}
-
 #register {
     padding: 4rem;
     background-color: #73c035;
@@ -203,5 +195,18 @@ footer {
     }
     .btn-main, .btn-main-out, .btn-main_white {
         font-size: 1.2rem;
+    }
+
+    #accordion {
+        padding: 6rem 0;
+        background-color: #f3f3f3;
+    }
+    #accordion h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    #accordion h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
     }
 }

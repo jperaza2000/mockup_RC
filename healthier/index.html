@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/app.css" />
 </head>
 
@@ -69,7 +70,7 @@
         </div>
     </section>
 
-    <section id="accordion" class="d-none">
+    <!-- <section id="accordion" class="d-none">
         <div class="container">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -137,7 +138,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="info2">
         <div class="container">
@@ -201,155 +202,203 @@
         </div>
     </section>
 
-    <section id="buttons">
+    <section id="accordion">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
                     <h1 class="mb-3">Learn How to Enjoy a Healthier Lifestyle</h1>
                     <h3 class="mb-3">Find Valuable Insights In Our Free Guide</h3>
                     <p class="mb-5">Select the area you need help with:</p>
                 </div>
             </div>
-            <div class="row gy-5 justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Arthritis</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Arthritis is the swelling and tenderness of one or more joints. Treatment of arthritis could include rest, occupational or physical therapy, hot or cold compresses, joint protection, exercise, drugs, and sometimes surgery to correct joint damage.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc1" aria-expanded="true" aria-controls="collapseAcc1">
+                                    Arthritis
+                                </button>
+                            </h2>
+                            <div id="collapseAcc1" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Arthritis is the swelling and tenderness of one or more joints. Treatment of arthritis could include rest, occupational or physical therapy, hot or cold compresses, joint protection, exercise, drugs, and sometimes surgery to correct joint damage.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Back Pain</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">It can result from injury, activity, and some medical conditions. Back pain can affect people of any age, for different reasons. Back pain usually resolves with rest and home remedies, but sometimes medical treatment is necessary.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc2" aria-expanded="false" aria-controls="collapseAcc2">
+                                    Back Pain
+                                </button>
+                            </h2>
+                            <div id="collapseAcc2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    It can result from injury, activity, and some medical conditions. Back pain can affect people of any age, for different reasons. Back pain usually resolves with rest and home remedies, but sometimes medical treatment is necessary.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Cholesterol</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. A variety of lifestyle changes plus prescription medications can help treat high cholesterol levels.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc3" aria-expanded="false" aria-controls="collapseAcc3">
+                                    Cholesterol
+                                </button>
+                            </h2>
+                            <div id="collapseAcc3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Cholesterol is a waxy, fat-like substance that's found in all the cells in your body. A variety of lifestyle changes plus prescription medications can help treat high cholesterol levels.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Diabetes</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy Treatment for type 1 diabetes involves insulin injections or the use of an insulin pump, frequent blood sugar checks, and carbohydrate counting. Treatment of type 2 diabetes primarily involves lifestyle changes, monitoring of your blood sugar, along with diabetes medications, insulin, or both.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc4" aria-expanded="false" aria-controls="collapseAcc4">
+                                    Diabetes
+                                </button>
+                            </h2>
+                            <div id="collapseAcc4" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy Treatment for type 1 diabetes involves insulin injections or the use of an insulin pump, frequent blood sugar checks, and carbohydrate counting. Treatment of type 2 diabetes primarily involves lifestyle changes, monitoring of your blood sugar, along with diabetes medications, insulin, or both.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Glaucoma</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Glaucoma is a group of eye conditions that damage the optic nerve, the health of which is vital for good vision. Glaucoma is treated by lowering your eye pressure (intraocular pressure). Depending on your situation, your options may include prescription eyedrops, oral medications, laser treatment, surgery, or a combination of any of these.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc5" aria-expanded="false" aria-controls="collapseAcc5">
+                                    Glaucoma
+                                </button>
+                            </h2>
+                            <div id="collapseAcc5" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Glaucoma is a group of eye conditions that damage the optic nerve, the health of which is vital for good vision. Glaucoma is treated by lowering your eye pressure (intraocular pressure). Depending on your situation, your options may include prescription eyedrops, oral medications, laser treatment, surgery, or a combination of any of these.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>Health Insurance</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Health insurance covers medical expenses for illnesses, injuries, and conditions.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc6" aria-expanded="false" aria-controls="collapseAcc6">
+                                    Health Insurance
+                                </button>
+                            </h2>
+                            <div id="collapseAcc6" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Health insurance covers medical expenses for illnesses, injuries, and conditions.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!-- HIDDEN -->
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden" id="programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>FINANCIAL ASSISTANCE</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Welfare or Temporary Assistance for Needy Families (TANF). Supplemental Security Income (SSI).</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc7" aria-expanded="false" aria-controls="collapseAcc7">
+                                    FINANCIAL ASSISTANCE
+                                </button>
+                            </h2>
+                            <div id="collapseAcc7" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Glaucoma is a group of eye conditions that damage the optic nerve, the health of which is vital for good vision. Glaucoma is treated by lowering your eye pressure (intraocular pressure). Depending on your situation, your options may include prescription eyedrops, oral medications, laser treatment, surgery, or a combination of any of these.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>HEALTHCARE</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Medicaid Children's Health Insurance Program (CHIP).</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc8" aria-expanded="false" aria-controls="collapseAcc8">
+                                    HEALTHCARE
+                                </button>
+                            </h2>
+                            <div id="collapseAcc8" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Medicaid Children's Health Insurance Program (CHIP).
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>MEDICAID</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Federal and state program that helps with medical costs for some people with limited income and resources.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc9" aria-expanded="false" aria-controls="collapseAcc9">
+                                    MEDICAID
+                                </button>
+                            </h2>
+                            <div id="collapseAcc9" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Federal and state program that helps with medical costs for some people with limited income and resources.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden" id="programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>MEDICARE</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">A health insurance program that primarily provides health insurance for Americans aged 65+.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc10" aria-expanded="false" aria-controls="collapseAcc10">
+                                    MEDICARE
+                                </button>
+                            </h2>
+                            <div id="collapseAcc10" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A health insurance program that primarily provides health insurance for Americans aged 65+.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>HOUSING</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Subsided Housing, Housing Voucher and Public Housing programs Low Income Home Energy Assistance Program (LIHEAP).</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc11" aria-expanded="false" aria-controls="collapseAcc11">
+                                    HOUSING
+                                </button>
+                            </h2>
+                            <div id="collapseAcc11" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Subsided Housing, Housing Voucher and Public Housing programs Low Income Home Energy Assistance Program (LIHEAP).
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>TRICARE</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">A health care program of the Uniformed Services. Tricare provides civilians health benefits for U.S Armed Forces military personnel, military retirees, and their dependents.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc12" aria-expanded="false" aria-controls="collapseAcc12">
+                                    TRICARE
+                                </button>
+                            </h2>
+                            <div id="collapseAcc12" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A health care program of the Uniformed Services. Tricare provides civilians health benefits for U.S Armed Forces military personnel, military retirees, and their dependents.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center programs_hidden">
-                    <div class="card h-100">
-                        <div class="card-header">
-                            <h3>SSDI</h3>
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">A federal insurance program managed by the Social Security Administration designed to provide income supplements to people who are physically restricted in their ability to be employed because of disability.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseAcc13" aria-expanded="false" aria-controls="collapseAcc13">
+                                    SSDI
+                                </button>
+                            </h2>
+                            <div id="collapseAcc13" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A federal insurance program managed by the Social Security Administration designed to provide income supplements to people who are physically restricted in their ability to be employed because of disability.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-12 text-center ">
-                    <a href="javascript:void(0)" id="showAllPrograms" class="btn btn-main-out">View all Programs</a>
-                </div>
-            </div>            
         </div>
     </section>
 
