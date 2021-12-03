@@ -184,6 +184,10 @@ footer {
     height: 70px;
     background-color: #32444d;
     padding-top: 11px;
+    color: #FFFFFF;
+}
+footer img {
+    padding-right: 1rem;
 }
 
 @media (max-width: 576px) {
